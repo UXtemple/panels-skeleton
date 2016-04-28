@@ -11,7 +11,7 @@ Setup your local domain for development:
 Add `127.0.0.1 panels.dev` to `/etc/hosts` or use this command:
 
 ```
-hostile 127.0.0.1 panels.dev
+sudo hostile 127.0.0.1 panels.dev
 ```
 
 Run the dev server! :)
