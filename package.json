@@ -4,23 +4,15 @@
   "description": "usepanels.com app scaffold",
   "main": "index.js",
   "scripts": {
-    "start": "sudo static --cache false -H '{\"Cache-Control\": \"no-cache, must-revalidate\"}' --port 80 playground & node pacpan.js watch"
+    "bundle": "pacpan bundle",
+    "start": "sudo pacpan"
   },
   "author": "Darío Javier Cravero <dario@uxtemple.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-plugin-external-helpers": "^6.5.0",
-    "babel-preset-es-uxtemple": "^1.0.0",
-    "browserify": "^13.0.0",
-    "errorify": "^0.3.1",
-    "hostile": "^1.0.2",
-    "node-static": "^0.7.7",
-    "panels": "^6.0.1",
-    "rollup-plugin-babel": "^2.4.0",
-    "rollupify": "^0.2.0",
-    "watchify": "^3.7.0"
+    "pacpan": "^1.0.1"
   },
   "dependencies": {
-    "usepages-blocks-basic": "^2.10.1"
+    "usepages-blocks-basic": "^2.9.2"
   }
 }
